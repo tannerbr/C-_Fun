@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,6 +10,7 @@ namespace C__Fun
 {
     internal class PrintClass
     {
+        public int num = 0;
         private string language = "";
 
         // Constructor (only run once)
